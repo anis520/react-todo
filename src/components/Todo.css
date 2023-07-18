@@ -1,0 +1,66 @@
+body {
+  padding: 10px 50px;
+}
+
+h1 {
+  background-color: greenyellow;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.maindiv {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.maindiv1 {
+  width: 70%;
+}
+
+.maindiv1 p {
+  background-color: gainsboro;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: rgb(64,64,64);
+  display: flex;
+  justify-content: space-between;
+   font-weight: bold;
+  align-items: center;
+}
+.maindiv1 p button {
+  background-color: rgb(228, 34, 8);
+  color: white;
+  border: none;
+  padding: 3px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.maindiv2 {
+  width: 30%;
+  padding: 20px;
+}
+
+.maindiv2 input {
+  border: 2px solid gray;
+  color: gray;
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 70%;
+}
+.maindiv2 button {
+  padding: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(20, 128, 228);
+  cursor: pointer;
+}
