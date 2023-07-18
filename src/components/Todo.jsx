@@ -20,14 +20,14 @@ const Todo = () => {
 
   return (
     <>
-    <h1>React Todo App</h1>
+      <h1>React Todo App</h1>
       <div className="maindiv">
         <div className="maindiv1">
           {todoList.map((todo, i) => {
             return (
               <p key={i}>
                 {todo}{" "}
-                <button onClick={() => handleDeleteTask(todo)}>delet</button>
+                <button onClick={() => handleDeleteTask(todo)}>Delete</button>
               </p>
             );
           })}
